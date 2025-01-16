@@ -1,0 +1,85 @@
+.logo{
+    font-size: 40px;
+    color: brown;
+    text-shadow: 3px 3px 8px black;
+    -webkit-text-stroke: 1px white;
+    font-weight: bold;
+}
+.menuarriba{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+}
+.menuabajo{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+body{
+    background-color: tan;
+    font-family: sans-serif;
+    max-width: 960px;
+    margin: 20px auto;
+}
+img{
+    max-width: 320px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 4px 6px 8px;
+    border: 8px white solid;
+    border-bottom: 38px white solid;
+    rotate: -5deg;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+img:hover{
+    rotate: 0deg;
+    scale: 1.5;
+    filter: grayscale();
+}
+.miBtn{
+    background-color: brown;
+    color: white;
+    padding: 4px 28px;
+    border-radius: 12px;
+    border: solid white 3px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 8px black;
+}
+.miBtn:hover{
+    background-color: black;
+}
+footer{
+    margin-top: 15px;
+    text-align: center;
+}
+.cuerpoInicio{
+    display: flex;
+    gap: 30px;
+}
+header{
+    background-color: white;
+    padding: 12px 20px;
+    border-bottom: 3px solid brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.escaparate{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+.escaparate img{
+    width: 150px;
+    aspect-ratio: 1/1;
+    rotate: 0deg;
+    object-fit: cover;
+}
