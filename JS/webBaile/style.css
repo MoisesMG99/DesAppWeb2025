@@ -1,0 +1,65 @@
+/*VARIABLES*/
+:root{
+    --colorMain:red;
+    --colorSecondary:blue;
+    --colorTertiary:tan;
+    --colorDark:black;
+    --colorLight:gray;
+    --borderRadius:20px;
+    --maxWidth:960px;
+    --padding:20px;
+    --margin:20px;
+    --fontFamily: sans-serif;
+    --fontFamily2: monospace;
+}
+
+/*Estilo del cuerpo de nuestra página*/
+body{
+    font-family: var(--fontFamily);
+    max-width: var(--maxWidth);
+    padding: var(--padding);
+    margin: 0 auto;
+}
+/*Estilo de los h*/
+h1,h2,h3,h4{
+    font-family: var(--fontFamily2);
+}
+/*Estilo general para el contenido de la página*/
+header, main, footer{
+
+}
+/*Estilo de la cabecera*/
+header{
+
+}
+
+/*Estilo de la sección principal*/
+main{
+
+}
+
+/*Estilo del pie de la página*/
+footer{
+
+}
+
+
+/*Estilo de las imágenes*/
+img{
+    max-width: 100%;
+    aspect-ratio: 1/1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:orange;
+}
+nav ul{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    gap:10px;
+    justify-content: end;
+}

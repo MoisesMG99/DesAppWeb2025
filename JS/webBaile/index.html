@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">logo</div>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0)" onclick="llamar(1)">Inicio</a></li>
+                <li><a href="javascript:void(0)" onclick="llamar(2)">Escuela</a></li>
+                <li><a href="javascript:void(0)" onclick="llamar(3)">Cursos</a></li>
+                <li><a href="javascript:void(0)" onclick="llamar(4)">Contacto</a></li>
+            </ul>
+        </nav>
+    </header><!-- FIN DE LA CABECERA-->
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenidos a la mejor escuela de baile de Asturias y Gijón</h1>
+            <p>En nuestra escuela de baile podrás aprender a bailar los estilos de baile que más te gusten. Tenemos cursos de baile para todos los niveles y edades. Si quieres aprender a bailar, no dudes en contactar con nosotros.</p>
+        </section><!-- FIN DE LA SECCIÓN INICIO-->
+        <section id="cursos">
+        <h1>Cursos de baile: Salsa, bachata, Street Dance</h1>
+        <ul>
+            <li>Salsa</li>
+            <li>Salsa 2</li>
+            <li>Bachata</li>
+            <li>Bachata 2</li>
+            <li>Street DAnce</li>
+        </ul>
+
+        <h2>Horarios de nuestra clases de baile</h2>
+        </section><!-- FIN DE LA SECCIÓN CURSOS-->
+
+        <section id="escuela">
+        <h1>Nuestra escuela</h1>
+        <p>En nuestra escuela de baile podrás aprender a bailar los estilos de baile que más te gusten. Tenemos cursos de baile para todos los niveles y edades. Si quieres aprender a bailar, no dudes en contactar con nosotros.</p>
+
+        </section><!-- FIN DE LA SECCIÓN ESCUELA-->
+
+        <section id="contacto">
+            <h1>Ven a conocernos</h1>
+            <h2>Contacta con nosotros</h2>
+            <address>c/Moros 22, Gijón Asturias</address>
+            <a href="tel:999888777">999888777</a>
+            <a href="https://wa.me/34999888777">Escríbenos por WhatsApp</a>
+        </section><!-- FIN DE LA SECCIÓN CONTACTO-->
+    </main><!-- FIN DEL MAIN-->
+
+    <footer>
+
+    </footer><!-- FIN DEL FOOTER-->
+    <script>
+
+        //Posible solución para ocultar todas las seccionesa la vez, y así no tener que hacerlo una a una dentro del switch
+        // document.querySelectorAll('section').forEach((elemento) => {
+        //     elemento.style.display = 'none';
+        //});
+        
+        function llamar(numero){      
+
+            //Switch que recibirá un número y en función de ese número nos mostrará un contenido u otro
+            switch (numero) {
+                case 1: //En caso de que el usuario pulse en Inicio
+
+                    //Le decimos que nos oculte el resto de secciones
+                    document.getElementById('cursos').style.display = 'none';
+                    document.getElementById('escuela').style.display = 'none';
+                    document.getElementById('contacto').style.display = 'none';
+
+                    //Le decimos que nos muestre la sección de inicio
+                    document.getElementById('inicio').style.display = 'block';
+                break;
+
+                case 2: //En caso de que el usuario pulse Escuela
+
+                    //Le decimos que nos oculte el resto de secciones
+                    document.getElementById('inicio').style.display = 'none';
+                    document.getElementById('cursos').style.display = 'none';
+                    document.getElementById('contacto').style.display = 'none';
+
+                    //Le decimos que nos muestre la sección de Escuela
+                    document.getElementById('escuela').style.display = 'block';
+                break;
+
+                case 3: //En caso de que el usuario pulse Cursos
+
+                    //Le decimos que nos oculte el resto de secciones
+                    document.getElementById('inicio').style.display = 'none';
+                    document.getElementById('escuela').style.display = 'none';
+                    document.getElementById('contacto').style.display = 'none';
+
+                    //Le decimos que nos muestre la sección de cursos
+                    document.getElementById('cursos').style.display = 'block';
+                break;
+
+                default: //En caso de que el usuario pulse Contacto
+                
+                    //Le decimos que nos oculte el resto de secciones
+                    document.getElementById('inicio').style.display = 'none';
+                    document.getElementById('escuela').style.display = 'none';
+                    document.getElementById('cursos').style.display = 'none';
+
+                    //Le decimos que nos muestre la sección de contacto
+                    document.getElementById('contacto').style.display = 'block';
+            } //Fin del switch
+
+        }//Fin de la función llamar(numero)
+
+    </script> <!-- FIN DEL SCRIPT-->
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>TravelApp <i class="fa-solid fa-monument"></i></h1><!-- Esto es el logo de la pagina-->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav><!-- FIN DEL ELEMENTO DE NAVEGACIÓN -->
+    </header><!-- FIN DEL ELEMENTO HEADER -->
+    <main>
+        <section id="destinos">
+            <img src="" alt="" class="imgDestino">
+            <div class="botones">
+                <button class="anterior" onclick="cargarMonumento(0)">Anterior</button>
+                <button class="aleatorio" onclick="cargarMonumento(1)">Aleatorio</button>
+                <button class="siguiente" onclick="cargarMonumento(2)">Siguiente</button>
+            </div><!-- FIN DEL ELEMENTO BOTONES -->
+
+            <div class="subtitulo">
+                <h2>Monumento</h2>
+                <p class="valoracion">⭐⭐🌟</p>
+                <p class = "lugar">Lugar</p>
+            </div><!-- FIN DEL ELEMNTO SUBTITULO -->
+
+            <div class="info">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum exercitationem aliquid odio obcaecati, est quo, corrupti maiores quisquam, adipisci impedit atque nulla? Est aliquid sapiente sed excepturi non provident repudiandae tempora eaque minima molestiae voluptate, obcaecati cum suscipit praesentium quisquam aut velit atque minus nulla blanditiis similique recusandae nisi quas?</p>
+            </div><!-- FIN DEL ELEMNTO INFO -->
+
+        </section><!-- FIN DEL ELEMENTO SECTION -->
+        
+    </main><!-- FIN DEL ELEMENTO MAIN -->
+
+    <footer>
+        <p>TravelApp &copy; 2025</p>
+    </footer><!-- FIN DEL ELEMENTO FOOTER -->
+    <script src="miJs.js"></script>
+</body>
+</html>
