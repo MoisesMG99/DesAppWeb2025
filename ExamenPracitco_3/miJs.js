@@ -27,12 +27,12 @@ function aleatorio(min, max){
 
 function cargaContenido(miNumerin){//Función que nos carga el contenido
     //Cargamos el contenido
-    document.querySelector('.imgDestino').src = miDestino[indice][4];//Cargamos la imagen
-    document.querySelector('.imgDestino').alt = miDestino[indice][0];//Cargamos el alt de la imagen
-    document.querySelector('.subtitulo h2').textContent = miDestino[indice][0];//Cargamos el nombre del monumento
-    document.querySelector('.lugar').textContent = miDestino[indice][1];//Cargamos el lugar
-    document.querySelector('.valoracion').textContent = '⭐'.repeat(miDestino[indice][2]);//Cargamos la valoración
-    document.querySelector('.info p').textContent = miDestino[indice][3];//Cargamos la descripción
+    document.querySelector('.imgDestino').src = miDestino[miNumerin][4];//Cargamos la imagen
+    document.querySelector('.imgDestino').alt = miDestino[miNumerin][0];//Cargamos el alt de la imagen
+    document.querySelector('.subtitulo h2').textContent = miDestino[miNumerin][0];//Cargamos el nombre del monumento
+    document.querySelector('.lugar').textContent = miDestino[miNumerin][1];//Cargamos el lugar
+    document.querySelector('.valoracion').textContent = '⭐'.repeat(miDestino[miNumerin][2]);//Cargamos la valoración
+    document.querySelector('.info p').textContent = miDestino[miNumerin][3];//Cargamos la descripción
 }
 //Creamos el evento que nos cargará todo
 function cargarMonumento(numerin){
