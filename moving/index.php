@@ -10,20 +10,5 @@
 
     //Mostramos los elementos de la lista
     mostrarJSON($datos);
-    
-
-
-    //Comprobamos que los campos no están vacíos
-    if(!empty($titulo) && !$director =='' && !$duracion =='' && !$poster =='' && !$sala =='')
-    {
-        array_push($datos['peliculas'], array('nombre' => $titulo, 'director' => $director, 'duracion' => $duracion, 'poster' => $poster, 'sala' => 'Sala'.$sala));
-    }
-
-    //Convertimos el array en JSON
-    $nuevoJSON = json_encode($datos, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-
-    //Guardamos el JSON en el archivo
-    file_put_contents($archivo, $nuevoJSON);
-
     ?>
 <?php include 'bloques/_footer.php'?>
