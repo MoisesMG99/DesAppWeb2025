@@ -1,0 +1,201 @@
+{
+    "peliculas": [
+        {
+            "nombre": "La Guerra de los Mundos",
+            "poster": "https:\/\/pics.filmaffinity.com\/war_of_the_worlds-353489914-large.jpg",
+            "duracion": "116 min",
+            "director": "Steven Spielberg",
+            "trailer": "https:\/\/link_a_trailer.com\/la_guerra_de_los_mundos.mp4",
+            "sala": "Sala4",
+            "horario": [
+                {
+                    "hora": "11:45"
+                },
+                {
+                    "hora": "15:00"
+                },
+                {
+                    "hora": "18:30"
+                }
+            ]
+        },
+        {
+            "nombre": "Star Wars: El Imperio Contraataca",
+            "poster": "https:\/\/pics.filmaffinity.com\/star_wars_episode_v_the_empire_strikes_back-701818523-large.jpg",
+            "duracion": "124 min",
+            "director": "Irvin Kershner",
+            "trailer": "https:\/\/link_a_trailer.com\/star_wars_el_imperio_contraataca.mp4",
+            "sala": "Sala2",
+            "horario": [
+                {
+                    "hora": "13:15"
+                },
+                {
+                    "hora": "16:30"
+                },
+                {
+                    "hora": "20:00"
+                }
+            ]
+        },
+        {
+            "nombre": "Blade Runner 2049",
+            "poster": "https:\/\/pics.filmaffinity.com\/blade_runner_2049-681477614-large.jpg",
+            "duracion": "164 min",
+            "director": "Denis Villeneuve",
+            "trailer": "https:\/\/link_a_trailer.com\/blade_runner_2049.mp4",
+            "sala": "Sala5",
+            "horario": [
+                {
+                    "hora": "12:30"
+                },
+                {
+                    "hora": "16:00"
+                },
+                {
+                    "hora": "19:45"
+                }
+            ]
+        },
+        {
+            "nombre": "Interstellar",
+            "poster": "https:\/\/pics.filmaffinity.com\/interstellar-366875261-large.jpg",
+            "duracion": "169 min",
+            "director": "Christopher Nolan",
+            "trailer": "https:\/\/link_a_trailer.com\/interstellar.mp4",
+            "sala": "Sala1",
+            "horario": [
+                {
+                    "hora": "12:00"
+                },
+                {
+                    "hora": "15:30"
+                },
+                {
+                    "hora": "19:00"
+                }
+            ]
+        },
+        {
+            "nombre": "2001: Odisea del Espacio",
+            "poster": "https:\/\/pics.filmaffinity.com\/2001_a_space_odyssey-322989452-large.jpg",
+            "duracion": "148 min",
+            "director": "Stanley Kubrick",
+            "trailer": "https:\/\/link_a_trailer.com\/2001_odisea_del_espacio.mp4",
+            "sala": "Sala3",
+            "horario": [
+                {
+                    "hora": "14:00"
+                },
+                {
+                    "hora": "17:30"
+                },
+                {
+                    "hora": "21:00"
+                }
+            ]
+        },
+        {
+            "nombre": "Mufasa: The Lion King ",
+            "director": "Barry Jenkins",
+            "duracion": "120 min",
+            "poster": "https:\/\/pics.filmaffinity.com\/mufasa_the_lion_king-600247674-large.jpg",
+            "sala": "Sala5",
+            "horario": [
+                {
+                    "hora": "14:00"
+                },
+                {
+                    "hora": "17:30"
+                },
+                {
+                    "hora": "21:00"
+                }
+            ]
+        },
+        {
+            "nombre": "Sonic 3: La película",
+            "director": "Jeff Fowler",
+            "duracion": "110 min",
+            "poster": "https:\/\/pics.filmaffinity.com\/sonic_the_hedgehog_3-737206072-large.jpg",
+            "sala": "Sala2",
+            "horario": [
+                {
+                    "hora": "14:00"
+                },
+                {
+                    "hora": "17:30"
+                },
+                {
+                    "hora": "21:00"
+                }
+            ]
+        },
+        {
+            "nombre": "Moana 2 ",
+            "director": "David G. Derrick Jr., Jason Hand, Dana Ledoux Miller",
+            "duracion": "99 min.",
+            "poster": "https:\/\/pics.filmaffinity.com\/moana_2-581593866-large.jpg",
+            "sala": "Sala3",
+            "horario": [
+                {
+                    "hora": "14:00"
+                },
+                {
+                    "hora": "17:30"
+                },
+                {
+                    "hora": "21:00"
+                }
+            ]
+        },
+        {
+            "nombre": "The Godfather",
+            "director": "Francis Ford Coppola",
+            "duracion": "175 min",
+            "poster": "https:\/\/pics.filmaffinity.com\/the_godfather-488102675-large.jpg",
+            "sala": "Sala1",
+            "horario": [
+                {
+                    "hora": "14:00"
+                },
+                {
+                    "hora": "17:30"
+                },
+                {
+                    "hora": "21:00"
+                }
+            ]
+        },
+        {
+            "nombre": "Captain America: Brave New World ",
+            "director": "Julius Onah",
+            "duracion": "119 min",
+            "poster": "https:\/\/pics.filmaffinity.com\/captain_america_brave_new_world-589232463-large.jpg",
+            "sala": "Sala3",
+            "horario": [
+                {
+                    "hora": "11:45"
+                },
+                {
+                    "hora": "15:00"
+                },
+                {
+                    "hora": "18:30"
+                }
+            ]
+        },
+        {
+            "nombre": "Paddington in Peru: Lost in The Jungle",
+            "director": "Dougal Wilson",
+            "duracion": "106 min",
+            "poster": "https:\/\/pics.filmaffinity.com\/paddington_in_peru_lost_in_the_jungle-651689640-large.jpg",
+            "sala": "Sala2",
+            "horario": [
+                {
+                    "hora": "12:41"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.miPelicula ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.miPelicula li {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+li img {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.contenido {
+    flex: 1;
+}
+
+.contenido h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.contenido p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.horarios {
+    margin-left: 20px;
+}
+
+.horarios h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.horarios ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.horarios li {
+    margin: 5px 0;
+    color: #666;
+}
+
+.horarios li:hover {
+    color: #333;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.Sala1 {
+    border-left: 5px solid #ff5733;
+}
+
+.Sala2 {
+    border-left: 5px solid #33ff57;
+}
+
+.Sala3 {
+    border-left: 5px solid #3357ff;
+}
+
+.Sala4 {
+    border-left: 5px solid #ff33a6;
+}
+
+.Sala5 {
+    border-left: 5px solid #a633ff;
+}
+.miSala:hover{
+    scale: 1.01;
+}
+.añadir {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.añadir label {
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.añadir input[type="text"],
+.añadir input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom:10px;
+}
+
+.añadir input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.añadir input[type="submit"]:hover {
+    background-color: #555;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+ nav li{
+    list-style-type: none;
+    color: #333;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ nav a{
+    text-decoration: none;
+    color: #fff
+ }
+ header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+ }
+ footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+ }
+ #modal{
+    height: 80%;
+    width:20%;
+ }
+#modal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
