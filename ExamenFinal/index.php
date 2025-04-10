@@ -261,7 +261,7 @@
                     </div>
                 <?php else: ?>
                     <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
-                        Evento no encontrado
+                        Evento no encontrado.
                     </div>
                 <?php endif; ?>
 
@@ -270,7 +270,7 @@
                     <div class="space-y-6">
                         <?php if (empty($events)): ?>
                             <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                               Eventos no econtrados según el criterio
+                                Eventos no encontrados según el criterio de búsqueda.
                             </div>
                         <?php endif; ?>
 
@@ -321,7 +321,7 @@
                 <?php elseif ($view_mode == 'grid'): ?>
                     <?php if (empty($events)): ?>
                         <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                            No se han encontrado eventos según el criterio
+                        Eventos no encontrados según el criterio de búsqueda.
                         </div>
                     <?php else: ?>
                         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -373,7 +373,7 @@
                 <?php elseif ($view_mode == 'table'): ?>
                     <?php if (empty($events)): ?>
                         <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                            Eventos no encontrados
+                        Eventos no encontrados según el criterio de búsqueda.
                         </div>
                     <?php else: ?>
                         <div class="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow">
@@ -494,7 +494,7 @@
 
                         <?php if (empty($events) || !array_filter($events, function($e) { return !empty($e['latitude']) && !empty($e['longitude']); })): ?>
                             <div class="mt-4 bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                                No se han econtrado localizaciones de eventos según los criterios utilizados
+                                Eventos no encontrados según el criterio de búsqueda.
                             </div>
                         <?php endif; ?>
                     </div>
@@ -552,7 +552,7 @@
                         </script>
                          <?php if (empty($events)): ?>
                             <div class="mt-4 bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                                No se han podido mostrar las fechas para los evetos.
+                                No eventos encontrados para mostrar en el calendario.
                             </div>
                         <?php endif; ?>
                     </div>
