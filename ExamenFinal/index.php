@@ -213,7 +213,7 @@
                                 </div>
                                 <a href="?view=<?php echo htmlspecialchars($view_mode); ?><?php echo $link_params; ?>"
                                    class="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300">
-                                    Back to Events
+                                    Volver a eventos
                                 </a>
                             </div>
 
@@ -261,7 +261,7 @@
                     </div>
                 <?php else: ?>
                     <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
-                        Event not found.
+                        Evento no encontrado
                     </div>
                 <?php endif; ?>
 
@@ -270,7 +270,7 @@
                     <div class="space-y-6">
                         <?php if (empty($events)): ?>
                             <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                                No events found matching your criteria.
+                               Eventos no econtrados según el criterio
                             </div>
                         <?php endif; ?>
 
@@ -310,7 +310,7 @@
                                         </div>
                                         <a href="?view=<?php echo htmlspecialchars($view_mode); ?>&event_id=<?php echo $event['id']; ?><?php echo $link_params; ?>"
                                            class="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium">
-                                            View Details
+                                            Ver Detalles
                                         </a>
                                     </div>
                                 </div>
@@ -321,7 +321,7 @@
                 <?php elseif ($view_mode == 'grid'): ?>
                     <?php if (empty($events)): ?>
                         <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                            No events found matching your criteria.
+                            No se han encontrado eventos según el criterio
                         </div>
                     <?php else: ?>
                         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -361,7 +361,7 @@
                                             </div>
                                             <a href="?view=<?php echo htmlspecialchars($view_mode); ?>&event_id=<?php echo $event['id']; ?><?php echo $link_params; ?>"
                                                class="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium">
-                                                View
+                                                Ver
                                             </a>
                                         </div>
                                     </div>
@@ -373,7 +373,7 @@
                 <?php elseif ($view_mode == 'table'): ?>
                     <?php if (empty($events)): ?>
                         <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                            No events found matching your criteria.
+                            Eventos no encontrados
                         </div>
                     <?php else: ?>
                         <div class="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow">
@@ -381,19 +381,19 @@
                                 <thead class="bg-gray-50 dark:bg-gray-700">
                                     <tr>
                                         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                                            Title
+                                            Título
                                         </th>
                                         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                                            Category
+                                            Categoría
                                         </th>
                                         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                                            Date & Time
+                                            Fecha y Hora
                                         </th>
                                         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                                            Location
+                                            Localización
                                         </th>
                                         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                                            Action
+                                            Acción
                                         </th>
                                     </tr>
                                 </thead>
@@ -426,7 +426,7 @@
                                             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                                                 <a href="?view=<?php echo htmlspecialchars($view_mode); ?>&event_id=<?php echo $event['id']; ?><?php echo $link_params; ?>"
                                                    class="text-indigo-600 hover:text-indigo-900 dark:text-indigo-400 dark:hover:text-indigo-300">
-                                                    View Details
+                                                    Ver Detalles
                                                 </a>
                                             </td>
                                         </tr>
@@ -494,7 +494,7 @@
 
                         <?php if (empty($events) || !array_filter($events, function($e) { return !empty($e['latitude']) && !empty($e['longitude']); })): ?>
                             <div class="mt-4 bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                                No events with location data found matching your criteria.
+                                No se han econtrado localizaciones de eventos según los criterios utilizados
                             </div>
                         <?php endif; ?>
                     </div>
@@ -552,7 +552,7 @@
                         </script>
                          <?php if (empty($events)): ?>
                             <div class="mt-4 bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-                                No events found to display on the calendar.
+                                No se han podido mostrar las fechas para los evetos.
                             </div>
                         <?php endif; ?>
                     </div>
