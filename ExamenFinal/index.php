@@ -517,7 +517,7 @@
                                         },
                                         events: [
                                             <?php foreach ($events as $event): ?>
-                                            ,{
+                                            {
                                                 id: '<?php echo $event['id']; ?>',
                                                 title: '<?php echo addslashes(htmlspecialchars($event['title'])); ?>', // Escape for JS
                                                 start: '<?php echo $event['event_date']; ?>',
